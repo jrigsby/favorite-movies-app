@@ -12,6 +12,12 @@
 		43B7B8FD21B05A9700AF0021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B7B8FB21B05A9700AF0021 /* Main.storyboard */; };
 		43B7B8FF21B05A9B00AF0021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B7B8FE21B05A9B00AF0021 /* Assets.xcassets */; };
 		43B7B90221B05A9B00AF0021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B7B90021B05A9B00AF0021 /* LaunchScreen.storyboard */; };
+		43B7B90A21B05F3B00AF0021 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7B90921B05F3B00AF0021 /* CustomTableViewCell.swift */; };
+		43B7B90C21B0619600AF0021 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7B90B21B0619600AF0021 /* Movie.swift */; };
+		43B7B90E21B08E6D00AF0021 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7B90D21B08E6D00AF0021 /* SearchViewController.swift */; };
+		43B7B91021B095B700AF0021 /* MovieDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7B90F21B095B700AF0021 /* MovieDataProcessor.swift */; };
+		43B7B91221B095F300AF0021 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7B91121B095F300AF0021 /* HTTPHandler.swift */; };
+		43B7B91421B0963200AF0021 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B7B91321B0963200AF0021 /* JSONParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		43B7B8FE21B05A9B00AF0021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43B7B90121B05A9B00AF0021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43B7B90321B05A9B00AF0021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B7B90921B05F3B00AF0021 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		43B7B90B21B0619600AF0021 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		43B7B90D21B08E6D00AF0021 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		43B7B90F21B095B700AF0021 /* MovieDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataProcessor.swift; sourceTree = "<group>"; };
+		43B7B91121B095F300AF0021 /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		43B7B91321B0963200AF0021 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				43B7B8FE21B05A9B00AF0021 /* Assets.xcassets */,
 				43B7B90021B05A9B00AF0021 /* LaunchScreen.storyboard */,
 				43B7B90321B05A9B00AF0021 /* Info.plist */,
+				43B7B90921B05F3B00AF0021 /* CustomTableViewCell.swift */,
+				43B7B90B21B0619600AF0021 /* Movie.swift */,
+				43B7B90D21B08E6D00AF0021 /* SearchViewController.swift */,
+				43B7B90F21B095B700AF0021 /* MovieDataProcessor.swift */,
+				43B7B91121B095F300AF0021 /* HTTPHandler.swift */,
+				43B7B91321B0963200AF0021 /* JSONParser.swift */,
 			);
 			path = "favorite-movies-app";
 			sourceTree = "<group>";
@@ -135,7 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B7B90E21B08E6D00AF0021 /* SearchViewController.swift in Sources */,
+				43B7B90A21B05F3B00AF0021 /* CustomTableViewCell.swift in Sources */,
+				43B7B91421B0963200AF0021 /* JSONParser.swift in Sources */,
 				43B7B8FA21B05A9700AF0021 /* ViewController.swift in Sources */,
+				43B7B91021B095B700AF0021 /* MovieDataProcessor.swift in Sources */,
+				43B7B90C21B0619600AF0021 /* Movie.swift in Sources */,
+				43B7B91221B095F300AF0021 /* HTTPHandler.swift in Sources */,
 				43B7B8F821B05A9700AF0021 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
